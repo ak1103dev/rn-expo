@@ -3,7 +3,10 @@
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
+    "android:build": "expo build:android",
+    "android:upload": "expo upload:android --key ./api-android.json",
     "ios": "expo start --ios",
+    "ios:build": "expo build:ios",
     "web": "expo start --web",
     "eject": "expo eject",
     "test": "jest --watchAll"

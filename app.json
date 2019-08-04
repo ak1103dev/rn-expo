@@ -25,10 +25,16 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.mymymymy.rn-expo"
+      "bundleIdentifier": "com.mymymymy.rnexpo"
     },
     "android": {
-      "package": "com.mymymymy.rn-expo"
+      "package": "com.mymymymy.rnexpo",
+      "permissions": [
+        "CAMERA",
+        "RECORD_AUDIO",
+        "READ_PHONE_STATE",
+        "READ_CONTACTS"
+      ]
     }
   }
 }
